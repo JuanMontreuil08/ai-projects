@@ -38,7 +38,7 @@ def enviar():
 
     #Response
     response = chat.send_message(msg)
-    log.insert(tk.END, 'Gemini: ' + response + "\n")
+    log.insert(tk.END, 'Gemini: ' + response.text + "\n")
     log.config(state='disabled')
     log.yview(tk.END)
 
