@@ -5,7 +5,7 @@ import tkinter as tk
 from tkinter import scrolledtext
 
 #API KEY
-API_KEY = 'AIzaSyBNiA04cDNQ0f4lVMoKSAhPUsW6xQDmkaE'
+API_KEY = 'XXX'
 genai.configure(api_key=API_KEY)
 
 #Set tk window
